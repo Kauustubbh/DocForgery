@@ -90,3 +90,13 @@ pip install -r requirements.txt
    Compute Pixel-F1, Intersection-over-Union (IoU), and ROC-AUC metrics via `notebooks/03_evaluation_metrics_inference.ipynb`.
 4. **Interactive Inspection:**
    Launch the Flask serving interface (`flask_app/app.py`) for side-by-side visualization of authentic vs. tampered document heatmaps.
+
+
+   ## Evaluation & Qualitative Results
+
+### 1. Optimal Threshold Sweeping & Metrics
+![Threshold Curve](assets/threshold_curve.png)
+![Confusion Matrix](assets/confusion_matrix.png)
+
+### 2. Qualitative Tamper Localization
+![Inspection Grid](assets/qualitative_inspection.png)
